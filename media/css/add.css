@@ -1,0 +1,204 @@
+/**Common**/
+a:link {
+    color: #0B55C4;
+    text-decoration: none;
+}
+
+/** Table styles **/
+
+#tablelist{
+        border: 1px solid #CCCCCC;
+        border-radius: 3px 3px 3px 3px;
+        box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+        padding: 5px;
+/*        width: 500px;*/
+}
+table.tablelist {
+	width: 100%;
+	border-spacing: 1px;
+	background-color: #e7e7e7;
+	color: #666;
+        font-size: 11px;
+}
+
+table.tablelist td,
+table.tablelist th { padding: 4px;}
+table.tablelist  td.left {
+    text-align: left;
+}
+table.tablelist thead th {
+	text-align: center;
+	background: #1A719C;
+	color: #fff;
+	border-bottom: 1px solid #999;
+	border-left: 1px solid #fff;
+}
+
+table.tablelist thead a:hover { text-decoration: none; }
+
+table.tablelist thead th img { vertical-align: middle; }
+
+table.tablelist tbody th { font-weight: bold; }
+
+table.tablelist tbody tr			{ background-color: #fff;  text-align: left; }
+table.tablelist tbody tr.row1 	{ background: #f0f5f8; border-top: 1px solid #fff; }
+
+table.tablelist tbody tr.row0:hover td,
+table.tablelist tbody tr.row1:hover td  { background-color: #ffd ; }
+
+table.tablelist tbody tr td 	   { height: 25px; background: #fff; border: 1px solid #fff; }
+table.tablelist tbody tr.row1 td { background: #f0f5f8; border-top: 1px solid #FFF; }
+
+table.tablelist tfoot {border-top: 1px solid #999;}
+table.tablelist tfoot tr { text-align: center;  color: #333; }
+table.tablelist tfoot td,
+table.tablelist tfoot th { background-color: #f3f3f3; border-top: 1px solid #999; text-align: center; }
+
+table.tablelist td.order 		{ text-align: center; white-space: nowrap; }
+table.tablelist td.order span { float: left; display: block; width: 20px; text-align: center; }
+
+table.tablelist .pagination { display:table; padding:0;  margin:0 auto;	 }
+
+.pagination div.limit {
+	float: left;
+	height: 22px;
+	line-height: 22px;
+	margin: 0 10px;
+}
+/**#page_toolbar **/
+#page_toolbar {
+    float: right; 
+    margin: 5px;
+    font-size: 10px;
+}
+
+div.toolbar {
+    float: right;
+    padding: 0;
+    text-align: right;
+}
+table.toolbar {
+    border-collapse: collapse;
+    margin: 0;
+    padding: 0;
+}
+table.toolbar td {
+    color: #666666;
+    height: 48px;
+    padding: 1px 1px 1px 4px;
+    text-align: center;
+}
+table.toolbar td.spacer {
+    width: 10px;
+}
+table.toolbar td.divider {
+    border-right: 1px solid #EEEEEE;
+    width: 5px;
+}
+table.toolbar span {
+    display: block;
+    float: none;
+    height: 32px;
+    margin: 0 auto;
+    width: 32px;
+}
+table.toolbar a {
+    border: 1px solid #FBFBFB;
+    cursor: pointer;
+    display: block;
+    float: left;
+    padding: 1px 5px;
+    white-space: nowrap;
+}
+table.toolbar a:hover {
+    border-color: #EEEEEE #CCCCCC #CCCCCC #EEEEEE;
+    border-left: 1px solid #EEEEEE;
+    border-style: solid;
+    border-width: 1px;
+    color: #0B55C4;
+    text-decoration: none;
+}
+/**Icons 32 **/
+.icon-32-send {
+    background-image: url("../images/toolbar/icon-32-send.png");
+}
+.icon-32-delete {
+    background-image: url("../images/toolbar/icon-32-delete.png");
+}
+.icon-32-help {
+    background-image: url("../images/toolbar/icon-32-help.png");
+}
+.icon-32-cancel {
+    background-image: url("../images/toolbar/icon-32-cancel.png");
+}
+.icon-32-config {
+    background-image: url("../images/toolbar/icon-32-config.png");
+}
+.icon-32-apply {
+    background-image: url("../images/toolbar/icon-32-apply.png");
+}
+.icon-32-back {
+    background-image: url("../images/toolbar/icon-32-back.png");
+}
+.icon-32-forward {
+    background-image: url("../images/toolbar/icon-32-forward.png");
+}
+.icon-32-save {
+    background-image: url("../images/toolbar/icon-32-save.png");
+}
+.icon-32-edit {
+    background-image: url("../images/toolbar/icon-32-edit.png");
+}
+.icon-32-copy {
+    background-image: url("../images/toolbar/icon-32-copy.png");
+}
+.icon-32-move {
+    background-image: url("../images/toolbar/icon-32-move.png");
+}
+.icon-32-new {
+    background-image: url("../images/toolbar/icon-32-new.png");
+}
+.icon-32-upload {
+    background-image: url("../images/toolbar/icon-32-upload.png");
+}
+.icon-32-assign {
+    background-image: url("../images/toolbar/icon-32-publish.png");
+}
+.icon-32-html {
+    background-image: url("../images/toolbar/icon-32-html.png");
+}
+.icon-32-css {
+    background-image: url("../images/toolbar/icon-32-css.png");
+}
+.icon-32-menus {
+    background-image: url("../images/toolbar/icon-32-menu.png");
+}
+.icon-32-publish {
+    background-image: url("../images/toolbar/icon-32-publish.png");
+}
+.icon-32-unpublish {
+    background-image: url("../images/toolbar/icon-32-unpublish.png");
+}
+.icon-32-restore {
+    background-image: url("../images/toolbar/icon-32-revert.png");
+}
+.icon-32-trash {
+    background-image: url("../images/toolbar/icon-32-trash.png");
+}
+.icon-32-archive {
+    background-image: url("../images/toolbar/icon-32-archive.png");
+}
+.icon-32-unarchive {
+    background-image: url("../images/toolbar/icon-32-unarchive.png");
+}
+.icon-32-preview {
+    background-image: url("../images/toolbar/icon-32-preview.png");
+}
+.icon-32-default {
+    background-image: url("../images/toolbar/icon-32-default.png");
+}
+/*COLORS*/
+.red {color: red}
+.green {color: green}
+.left {text-align: left}
+.font12 {font-size: 12px}

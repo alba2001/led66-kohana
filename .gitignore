@@ -1,0 +1,7 @@
+application/bootstrap/**
+application/logs/**
+application/cache/**
+modules/**
+system/**
+nbproject/**
+vendor/**
